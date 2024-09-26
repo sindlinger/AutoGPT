@@ -1,0 +1,6 @@
+#!/workspaces/AutoGPT/autogpt_platform/backend/myenv/bin/python
+import sys
+from backend.ws import main
+
+if __name__ == '__main__':
+    sys.exit(main())

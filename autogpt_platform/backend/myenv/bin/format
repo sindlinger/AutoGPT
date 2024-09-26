@@ -1,0 +1,6 @@
+#!/workspaces/AutoGPT/autogpt_platform/backend/myenv/bin/python
+import sys
+from linter import format
+
+if __name__ == '__main__':
+    sys.exit(format())
